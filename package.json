@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "test": "jest --watchAll"
   },
-  "homepage": "https://zombie1995.github.io/to-do-app",
+  "homepage": "https://zombie1995.github.io/to-do-app/",
   "dependencies": {
     "axios": "^1.6.8",
     "mobx": "^6.12.3",
