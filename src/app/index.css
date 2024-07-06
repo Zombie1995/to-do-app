@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    :root {
+        background-color: #f5f5f5;
+    }
+
+    p {
+        @apply font-roberto font-thin
+    }
+
+    span {
+        @apply font-roberto font-light
+    }
+
+    h1 {
+        @apply font-roberto font-thin
+    }
+    
+    input {
+        @apply font-roberto placeholder:font-light placeholder:italic placeholder:text-[#e6e6e6]
+    }
+
+    button {
+        @apply font-roberto font-light
+    }
+}
+
+@font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobertoSans';
+    src: url('/src/shared/assets/fonts/RobertoSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
